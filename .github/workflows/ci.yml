@@ -47,6 +47,10 @@ jobs:
         run: |
           pytest -v --junitxml=report.xml > result.log || true
 
+      # Setup CML CLI
+      - name: Setup CML
+        uses: iterative/setup-cml@v2
+
       # Post CML report as comment on PR
       - name: Post CML report
         env:
