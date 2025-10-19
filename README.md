@@ -5,7 +5,7 @@ This repository contains the implementation of an IRIS dataset pipeline with DVC
 ---
 
 ## **Directory Structure**
-
+```
 ├── data/
 │ └── iris.csv
 ├── model/
@@ -15,7 +15,7 @@ This repository contains the implementation of an IRIS dataset pipeline with DVC
 │ ├── test_data_validation.py
 │ └── test_model_eval.py
 └── requirements.txt
-
+```
 
 ---
 
